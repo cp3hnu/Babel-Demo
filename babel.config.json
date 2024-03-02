@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-regenerator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": true,
+        "regenerator": true,
+        "version": "^7.23.8"
+      }
+    ]
+  ]
+}
